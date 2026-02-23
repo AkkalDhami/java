@@ -1,4 +1,4 @@
-public class Demo{
+public class demo{
     public static void main(String[] args) {
         byte b =5;
         short s = 6;
