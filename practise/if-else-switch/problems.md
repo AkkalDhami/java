@@ -77,7 +77,7 @@ Handle invalid numbers properly.
 ## 🔟 Vowel or Consonant
 Take a character input and check whether it is:
 - A vowel (a, e, i, o, u)
-- A consonant  
+- B consonant  
 
 Handle both uppercase and lowercase letters.
 
