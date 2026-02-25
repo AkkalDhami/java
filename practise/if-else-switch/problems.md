@@ -98,24 +98,7 @@ Check whether a number is divisible by both 5 and 11.
 
 ---
 
-## 1️⃣3️⃣ Electricity Bill Calculator
-Input units consumed and calculate the bill:
-
-- First 100 units → ₹5 per unit  
-- Next 100 units → ₹7 per unit  
-- Above 200 units → ₹10 per unit  
-
----
-
-## 1️⃣4️⃣ Character Type Checker
-Input a character and check whether it is:
-- Alphabet  
-- Digit  
-- Special character  
-
----
-
-## 1️⃣5️⃣ Mini ATM Menu (switch)
+## 1️⃣3️⃣ Mini ATM Menu (switch)
 Display a menu:
 
 1 → Check Balance  
