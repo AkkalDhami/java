@@ -11,10 +11,12 @@ public record simple_calculator_I() {
             System.out.println("Product: " + (x * y));
         } else if (op == '/') {
             if(y != 0){
-                System.out.println("Difference: " + (x / y));
+                System.out.println("Division: " + (x / y));
             } else {
-                System.out.println("Difference: 0");
+                System.out.println("Division: 0");
             }
+        } else {
+            System.out.println("Invalid operator!");
         }
     }
 }
