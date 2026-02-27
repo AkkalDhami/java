@@ -50,3 +50,8 @@ Container that store the data value.
     - `boolean`
         - store _true_ or _false_
         - boolean isAdmin = false;
+
+### 2. Non Primitive
+
+- **Array**
+- **String*
