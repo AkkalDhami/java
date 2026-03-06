@@ -11,6 +11,11 @@ public class Object {
         System.out.println(r1.num);
         randomAddTen(r1);
         System.out.println(r1.num);
+
+        Random r2 = new Random(r1);
+        System.out.println(r2.num);
+        randomAddTen(r2);
+        System.out.println(r2.num);
     }
 
     static void randomAddTen(Random r1) {
@@ -27,6 +32,10 @@ public class Object {
 
      Random(int num) {
          this.num = num;
+     }
+
+     Random(Random r) {
+        this.num = r.num;
      }
      
      void addTen() {
