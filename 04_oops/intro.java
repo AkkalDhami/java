@@ -8,12 +8,13 @@ public class intro {
         s1.printName();
     }
 
-   static class Student {
-        String name;
-        int rollNum;
+}
 
-        void printName() {
-            System.out.println(name);
-        }
+class Student {
+    String name;
+    int rollNum;
+
+    void printName() {
+        System.out.println(name);
     }
 }
