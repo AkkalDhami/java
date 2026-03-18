@@ -25,6 +25,11 @@ public class Object {
     static void addTen(int num) {
         num += 10;
     }
+
+    public boolean equals(Object obj) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'equals'");
+    }
 }
 
  class Random {
