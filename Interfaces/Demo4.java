@@ -13,7 +13,9 @@ interface A {
 }
 
 interface B {
-    void print2();
+    default void print2() {
+        System.out.println("B");
+    }
 }
 
 class C implements A, B {
@@ -24,7 +26,7 @@ class C implements A, B {
 
     @Override
     public void print2() {
-        System.out.println("B");
+        System.out.println("D");
     }
 }
 
