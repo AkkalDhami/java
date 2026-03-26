@@ -8,6 +8,8 @@ public class Demo3 {
         System.out.println(b2.getValue() + 12);
         System.out.println(b3.getValue());
 
+        // String s1 = (String) b2.getValue(); //! error
+
     }
 }
 
