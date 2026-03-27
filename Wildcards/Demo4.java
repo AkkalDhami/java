@@ -58,3 +58,11 @@ class Cat extends Animal {
         System.out.println("Cat Eating...");
     }
 }
+
+/*
+ * List <? extends T> -> reading(covariant)
+ * List <? super T> -> writing(countravariant)
+ * List <T> -> invariant
+ * 
+ * PECS rule: Producer Extends Consumer Super
+ */
